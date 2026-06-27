@@ -268,7 +268,7 @@ const state = {
 };
 
 /* ─── 3. WEATHER API CONFIG ───────────── */
-const WEATHER_API_KEY = '2f5abe4ac4634a97baa54446261704';
+const WEATHER_API_KEY = process.env.WEATHER_API;
 const WEATHER_API_BASE = 'https://api.weatherapi.com/v1';
 
 // Map WeatherAPI condition codes to emoji icons
